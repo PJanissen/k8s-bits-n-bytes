@@ -20,7 +20,7 @@ Voeg een omgevings variabele met het wachtwoord toe aan het bestand `postgres.ya
         value: Dummy_123
 ````
 
-Deploy Postgres (zowel als een pod worden gedeployed):
+Deploy Postgres (zowel een service als een pod worden gedeployed):
 
 ````
 $ kubectl apply -n ninckblokje postgres.yaml
